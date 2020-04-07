@@ -1,0 +1,19 @@
+{
+  "name": "react-component-framework",
+  "version": "1.0.0",
+  "description": "## 功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojiaofengzhongzhuifeng/react-component-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojiaofengzhongzhuifeng/react-component-framework/issues"
+  },
+  "homepage": "https://github.com/wojiaofengzhongzhuifeng/react-component-framework#readme"
+}
