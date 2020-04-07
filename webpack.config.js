@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   output: {
     filename: 'bundle.js'
   },
@@ -22,5 +22,8 @@ module.exports = {
     compress: true,
     port: 9000
   },
-  plugins: [new HtmlWebpackPlugin()]
+  plugins: [new HtmlWebpackPlugin({  // Also generate a test.html
+    filename: 'index.html',
+    template: './src/index.html'
+  })]
 };
