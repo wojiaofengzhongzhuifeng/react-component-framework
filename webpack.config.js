@@ -24,9 +24,5 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({  // Also generate a test.html
     filename: 'index.html',
     template: './src/index.html'
-  })],
-  externals: {
-    'react': 'react', // Case matters here
-    'react-dom': 'reactDOM' // Case matters here
-  }
+  })]
 };
