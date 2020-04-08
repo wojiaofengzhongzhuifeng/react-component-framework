@@ -1,8 +1,8 @@
 {
-  "name": "react-component-framework",
-  "version": "1.0.0",
+  "name": "react-component-button-framework",
+  "version": "0.0.1",
   "description": "## 功能",
-  "main": "src/index.tsx",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "jest",
     "build": "webpack --config webpack.prod.config.js src/index.tsx",
